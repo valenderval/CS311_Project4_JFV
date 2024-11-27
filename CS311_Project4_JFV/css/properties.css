@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: 50px;
+    background-color: antiquewhite;
+}
+
+.container {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    background-color: lightpink;
+    justify-content:left;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    flex-basis: 100%;
+    justify-content: flex-start;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    background-color: pink;
+    font-size: x-large;
+    box-shadow: 0 0 10px rgb(228, 39, 140);
+
+}
+
+.break{
+    flex-basis: 100%;
+    height: 0;
+  }
+
+.cell {
+
+    flex: 1 1 200px;
+    background-color: lightpink;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(228, 39, 140);
+
+
+
+
+}
+
+.sidebar {
+  
+    justify-content: flex-start;
+    
+    background-color: lightpink;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    text-align: left;
+    box-shadow: 0 0 10px rgb(228, 39, 140);
+    
+}
+
+.itemContainer{
+    display: flex;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-content: stretch;
+
+}
+
+.name {
+    align-self:flex-start;
+    flex-basis: 100%;
+    background-color: lightpink;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgb(228, 39, 140);
+}
+
+.photo {
+
+    flex:content;
+    background-color: lightpink;
+    padding: 10px;
+    justify-content: center;
+}
+
+.text {
+
+    flex:content;
+    background-color: lightpink;
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgb(228, 39, 140);
+}
+
+.footer{
+
+    flex-basis: 100%;
+    align-self: center;
+    background-color: lightpink;
+    padding: 10px;
+    text-align:left;
+    box-shadow: 0 0 10px rgb(228, 39, 140);
+
+}

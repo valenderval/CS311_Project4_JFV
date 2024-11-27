@@ -1,0 +1,14 @@
+function setHighlightColor(){
+
+    const poem = document.getElementById(name);
+    poem.style.color = "red";
+    poem.style.fontSize = "125%";
+}
+
+
+
+function setDefaultColor() {
+    const poem = document.getElementById("poem");
+    poem.style.color = "black";
+    poem.style.fontSize = "100%";
+}
